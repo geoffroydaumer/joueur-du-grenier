@@ -1,0 +1,9 @@
+update:
+
+db.pokemon.updateOne({_id: ObjectId("63da3f9627dbd13979cec60a")}, {$set : {"stats" : {"speed" : 2}}})
+
+
+
+delete:
+
+db.pokemon.deleteOne({_id: ObjectId("63da3f9627dbd13979cec60a")})
